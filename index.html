@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type='text/javascript'> 
+        //stings
+        console.log('******strings********')
+        var coffee= 'sumatran'
+        console.log(coffee)
+            //sumatran
+        var joe='dunkin'+'starbucks'
+        console.log(joe)
+        //dunkinstarbucks
+        var joe2='dunkin'+ " " + 'starbucks'
+        console.log(joe2)
+        //dunkin starbucks
+        // var bean= java
+        // console.log(bean)
+       
+        //numbers
+        console.log('******Nums********')
+        // var 2= 'two'
+
+        var number=5
+        console.log(number)
+        //5
+        var num2= 5+4
+        console.log(num2)
+            //9 
+        var num3= (2+3)*2
+        console.log(num3)
+        //10
+        var num4 = 5+'3'
+        console.log(num4)
+        //53
+        var num5= 3*'3'
+        console.log(num5)
+        //33
+        var num6 = num2/3
+        console.log(num6)
+        //undefined
+        //what is the highest number possible
+        var num7 = Math.floor(Math.random()*(6-1))
+        console.log(num7)
+
+
+        arrays
+        console.log('******ARRRR********')
+        var arr= ['a','b','c','d','e','f']
+
+        console.log(arr[0])
+        //'a'
+        console.log(arr[3])
+        //'d'
+        console.log(arr[arr.length-1])
+        //f
+        console.log(arr[arr.length+1])
+        //-1
+        console.log(arr.indexOf('b'))
+        //1
+        console.log(arr[2].toUpperCase())
+        'C'
+        if else if else
+        console.log('******If/Else********')
+        var num1 = 3
+        var num2 = 4
+        var three = '2'
+        var bool=true
+        if (num1 >= num2){
+            console.log('num1 is greater or =')
+        }else{
+            console.log('num2 is bigger')
+            //num2 is bigger
+        }
+
+        if (num1 == num2){
+            console.log('were the same on 73 kinda')
+        }else{
+            console.log('not the same')
+            //not the same
+        }
+
+        if(num1+1 === num2){
+            console.log('now we are the same')
+            //now we are the same
+        }else{
+            console.log('naw still different')
+        }
+
+        if(num1 != num2){
+            console.log('we aint the same')
+            //we aint
+        }else {
+            console.log('I guess we are')
+        }
+
+        if(bool){
+            console.log('true')
+            //true
+        }
+        else{console.log('falsey')}
+
+
+        var num1 = 3
+        var num2 = 4
+        var three = '2'
+        var bool=true
+        if(num1<num2 && bool===true){
+            bool=false
+            if(three===2){
+                conole.log('inner if')
+            }else if(three==='3'){
+                conole.log('inner if')
+            }else{
+                console.log('inner else')
+                //inner else
+            }
+            console.log(bool)//false
+        }
+        console.log(bool)//true
+
+        
+        // //for loops
+        console.log('******4loops********')
+        let dogs=['spot', 'spike','terio', 'dozer', 'rocky']
+
+        for(let i=0;i<dogs.length;i++){
+            console.log('first loop '+dogs[i])
+            ////spot,spike,etc
+        }
+
+        for(let i=2;i<dogs.length;i++){
+            console.log('second loop '+dogs[i])
+            //terio,dozer,rocky
+        }
+
+        for(let i=0;i<dogs.length-1;i++){
+            console.log('third loop '+dogs[i])
+            //rocky is in
+        }
+
+        let twoD= [[1,2,4],['a','b','c'],[3,'s',5]]
+
+        for(let i=0;i<twoD.length;i++){
+            for(let j=0;j<twoD[i].length;j++){
+            console.log('innerloop '+twoD[i][j])
+            //124  
+            //abc
+            //3s5
+        }
+        }
+
+        console.log('******FUNCTIONS********')
+        var myFunc=function(param1,param2){
+            var sum=param1+param2
+            console.log(sum)
+            //3
+            //12
+            //3 , 3   undefined 
+        }
+        myFunc(1,2)
+        myFunc(1,'2')
+        myFunc(1,2,3)
+
+
+
+        // console.log()
+    </script>
+    
+</body>
+</html>
